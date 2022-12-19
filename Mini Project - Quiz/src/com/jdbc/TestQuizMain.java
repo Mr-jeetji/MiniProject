@@ -24,7 +24,7 @@ public class TestQuizMain {
 			int score = 0;
 			int i = 1;
 			while (rs.next()) {
-
+			
 				System.out.print("Q" + i + ".");i++;
 				System.out.println(rs.getString(2) + "\r");
 				System.out.println(rs.getString(3));
